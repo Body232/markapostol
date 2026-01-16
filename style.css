@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, serif;
+    background-color: #000000;
+}
+
+.header {
+    background: linear-gradient(to right,#B67E7D, #640000, #420001, #040B15);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+
+.navbar {
+    background-color: #000000b1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: #f06767;
+}
+
+
+.profile {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ccc;
+}
+
+
+.content {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+.motto {
+    font-style: italic;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px;
+    border-left: 4px solid #ffffff;
+}
+
+.fun-facts {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.fun-facts li {
+    background-color: f4rgba(102, 93, 102, 0);
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+a1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #000000;
+    padding: 5px;
+    width: 100%;
+}
+
+.card {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-icons .icon {
+  display: inline-block;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  transform: translateY(-3px);
+}
+
+.social-icons .instagram {
+  color: #e1306c;
+}
+
+.social-icons .facebook {
+  color: #3b5999;
+}   
